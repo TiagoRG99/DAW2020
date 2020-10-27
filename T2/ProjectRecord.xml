@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projectrecord SYSTEM "ProjectRecord.dtd">
+<projectrecord> 
+    <header>
+        <name>DTD</name>
+        <title>Criação de DTD para Project Record</title>
+        <startdate>21/10/20</startdate>
+        <enddate>28/10/20</enddate>
+        <supervisor link="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </header>
+    <body>
+        <workteam>
+            <member>
+                <member_name>Tiago Rico Gonçalves</member_name>
+                <member_id>PG42851</member_id>
+                <member_email>pg42851@alunos.uminho.pt</member_email>
+                <member_link link="https://github.com/TiagoRG99/DAW2020">github.com/TiagoRG99/DAW2020</member_link>
+            </member>
+        </workteam>
+        <abstract>
+            <paragraph>Este projeto teve como objetivo a criação de um ficheiro DTD para Project Record.</paragraph>
+            <paragraph>Adicionalmente foi criado este Project Record em XML utilizanda a especificação DTD criada.</paragraph>
+        </abstract>
+    </body>
+    <deliverables>
+        <deliverable link="ProjectRecord.dtd">Ficheiro DTD</deliverable>
+    </deliverables>
+</projectrecord>

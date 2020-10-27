@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT projectrecord (header, body, deliverables) >
+
+<!ELEMENT header (name, title, subtitle?, startdate, enddate, supervisor) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT subtitle (#PCDATA) >
+<!ELEMENT startdate (#PCDATA) >
+<!ELEMENT enddate (#PCDATA) >
+<!ELEMENT supervisor (#PCDATA) >
+<!ATTLIST supervisor link CDATA #REQUIRED >
+
+<!ELEMENT body (workteam, abstract) >
+<!ELEMENT workteam (member,member2?,member3?) >
+<!ELEMENT member (member_name, member_id, member_email, member_link?) >
+<!ELEMENT member2 (member_name, member_id, member_email, member_link?) >
+<!ELEMENT member3 (member_name, member_id, member_email, member_link?) >
+<!ELEMENT member_name (#PCDATA) >
+<!ELEMENT member_id (#PCDATA) >
+<!ELEMENT member_email (#PCDATA) >
+<!ELEMENT member_link (#PCDATA) >
+<!ATTLIST member_link link CDATA #REQUIRED >
+
+<!ELEMENT abstract (paragraph)+ >
+<!ELEMENT paragraph (#PCDATA|italic|bold|underlined|link)* >
+<!ELEMENT italic (#PCDATA) >
+<!ELEMENT bold (#PCDATA) >
+<!ELEMENT underlined (#PCDATA) >
+<!ELEMENT link (#PCDATA) >
+<!ATTLIST link text_link CDATA #REQUIRED >
+
+<!ELEMENT deliverables (deliverable)+ >
+<!ELEMENT deliverable (#PCDATA) >
+<!ATTLIST deliverable link CDATA #IMPLIED >
