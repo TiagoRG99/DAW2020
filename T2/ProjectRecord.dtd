@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT projectrecord (header, body, deliverables) >
+<!ELEMENT projectrecord (header, workteam, abstract, deliverables) >
 
 <!ELEMENT header (name, title, subtitle?, startdate, enddate, supervisor) >
 <!ELEMENT name (#PCDATA) >
@@ -10,7 +10,6 @@
 <!ELEMENT supervisor (#PCDATA) >
 <!ATTLIST supervisor link CDATA #REQUIRED >
 
-<!ELEMENT body (workteam, abstract) >
 <!ELEMENT workteam (member,member2?,member3?) >
 <!ELEMENT member (member_name, member_id, member_email, member_link?) >
 <!ELEMENT member2 (member_name, member_id, member_email, member_link?) >
