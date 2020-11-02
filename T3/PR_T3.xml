@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projectrecord SYSTEM "ProjectRecord.dtd">
+<projectrecord> 
+    <header>
+        <name>DTD</name>
+        <title>Criação de DTD para Project Record</title>
+        <startdate>21/10/20</startdate>
+        <enddate>28/10/20</enddate>
+        <supervisor link="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </header>
+    <workteam>
+        <member>
+            <member_name>Tiago Rico Gonçalves</member_name>
+            <member_id>PG42851</member_id>
+            <member_email>pg42851@alunos.uminho.pt</member_email>
+            <member_link link="https://github.com/TiagoRG99/DAW2020">github.com/TiagoRG99/DAW2020</member_link>
+        </member>
+    </workteam>
+    <abstract>
+        <paragraph>Este projeto teve como principal objetivo a criação de um website que explora o dataset dos arqueossítios do NW português.</paragraph>
+        <paragraph>O website consiste de um índice com todas as entradas de arqueossítios, cada entrada tem a sua página com a sua informação e um botão que reverte para o índice.
+         Houve também uma tentativa de fazer botões que apontassem para o próximo e para o anterior na lista do índice</paragraph>
+        <paragraph>Adicionalmente foi criado um ficheiro DTD para ficheiro xml do dataset dos arqueossítios do NW português.</paragraph>
+    </abstract>
+    <deliverables>
+        <deliverable link="ProjectRecord.dtd">Ficheiro DTD</deliverable>
+    </deliverables>
+</projectrecord>
