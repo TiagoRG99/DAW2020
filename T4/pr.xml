@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>TPC4</key>
+        <title>TPC 4</title>
+        <bdate>04/11/2020</bdate>
+        <edate>11/11/2020</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="pg42851">
+            <name>Tiago Rico Gonçalves</name>
+            <email>pg42851@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Este trabalho de casa teve como objetivo principal a criação de um servidor que alojasse o website criado em xsl
+            do dataset de Arqueossítiso do NW Português.</p>
+        <p>Para tal foi ajustado o ficheiro xsl do TPC 3 de modo a formatar os nomes dos ficheiros html criados.
+        Além disso foi feito com sucesso os botões de anterior e próximo nas páginas dos elementos do dataset.</p>
+        <p>Relativamente ao servidor, foi implementado em Node.js para que responda a URLs do tipo <u>localhost:7777/arqs/x</u>, sendo
+            o <b>x</b> um qualquer número referente ao ficheiro arq<b>x</b>.html e o URL <u>localhost:7777</u> referente ao ficheiro index.html,
+         utilisando assim os ficheiro criados pelo xsl.</p>
+    </abstract>
+    <deliverables>
+        <link url="arq_server.js">Servidor Node.js</link>
+        <link url="arqsits_site.xsl">Ficheiro XSL</link>
+    </deliverables>
+</pr>
