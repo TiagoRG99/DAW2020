@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>TPC5</key>
+        <title>TPC 5</title>
+        <bdate>11/11/2020</bdate>
+        <edate>17/11/2020</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="pg42851">
+            <name>Tiago Rico Gonçalves</name>
+            <email>pg42851@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Este trabalho de casa teve como objetivo principal a criação de um servidor que alojasse um website 
+        com base num json-server do dataset de Escola de Musica.</p>
+    </abstract>
+    <deliverables>
+        <link url="server_TP5.js">Servidor Node.js</link>
+	<link url="db.json">Servidor Node.js</link>
+    </deliverables>
+</pr>
