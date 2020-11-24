@@ -1,0 +1,31 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "dateCreated": "13/11/2020",
+      "dateDued": "20/11/2020",
+      "who": "Tiago",
+      "what": "Something",
+      "type": "Project",
+      "state": "toDo"
+    },
+    {
+      "id": "2",
+      "dateCreated": "17/11/2020",
+      "dateDued": "30/11/2020",
+      "who": "Tiago",
+      "what": "Something else",
+      "type": "Project",
+      "state": "resolved"
+    },
+    {
+      "dateCreated": "23/11/2020",
+      "dateDued": "01/12/2020",
+      "who": "Tiago",
+      "what": "Post Test",
+      "type": "Project",
+      "state": "toDo",
+      "id": "hqRFnAJ"
+    }
+  ]
+}

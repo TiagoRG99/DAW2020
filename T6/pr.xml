@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>TPC6</key>
+        <title>TPC 6</title>
+        <bdate>18/11/2020</bdate>
+        <edate>25/11/2020</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="pg42851">
+            <name>Tiago Rico Gonçalves</name>
+            <email>pg42851@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Este trabalho de casa teve como objetivo principal a criação de uma Single Page Application que utilizava uma bases de dados de uma lista de tarefas,
+         descriminando as tarefas pelas suas caracteristicas e pelo estado de conclusão.</p>
+    </abstract>
+    <deliverables>
+        <link url="server.js">Servidor Node.js</link>
+        <link url="db.json">Ficheiro JSON</link>
+    </deliverables>
+</pr>
