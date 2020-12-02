@@ -1,0 +1,66 @@
+extends layout
+
+block content
+    .w3-card-4
+      header.w3-container.w3-teal
+        h3.w3-left Student #{Student.nome}
+    
+      body
+        .w3-container
+            ul
+                li Name: #{Student.nome}
+                li Number: #{Student.numero}
+                li Git: 
+                    a(href=Student.git) #{Student.git}
+                li TPC: 
+                ol
+                    li
+                        if Student.tpc[0] == 0
+                            input.w3-check(type="checkbox", disabled)
+                        else
+                            input.w3-check(type="checkbox", checked="checked",  disabled)
+                    li
+                        if Student.tpc[1] == 0
+                            input.w3-check(type="checkbox", disabled)
+                        else
+                            input.w3-check(type="checkbox", checked="checked",  disabled)
+                    li
+                        if Student.tpc[2] == 0
+                            input.w3-check(type="checkbox", disabled)
+                        else
+                            input.w3-check(type="checkbox", checked="checked",  disabled)
+                    li
+                        if Student.tpc[3] == 0
+                            input.w3-check(type="checkbox", disabled)
+                        else
+                            input.w3-check(type="checkbox", checked="checked",  disabled)
+                    li
+                        if Student.tpc[4] == 0
+                            input.w3-check(type="checkbox",  disabled)
+                        else
+                            input.w3-check(type="checkbox", checked="checked",  disabled)
+                    li
+                        if Student.tpc[5] == 0
+                            input.w3-check(type="checkbox",  disabled)
+                        else
+                            input.w3-check(type="checkbox", checked="checked",  disabled)
+                    li
+                        if Student.tpc[6] == 0
+                            input.w3-check(type="checkbox",  disabled)
+                        else
+                            input.w3-check(type="checkbox", checked="checked",  disabled)
+                    li
+                        if Student.tpc[7] == 0
+                            input.w3-check(type="checkbox", disabled)
+                        else
+                            input.w3-check(type="checkbox", checked="checked",  disabled)
+      footer.w3-container.w3-teal
+        address Gerado por dawApp :: 2020-Nov
+        address
+            a(href='http://localhost:7700/students') Return to Main Page
+        address
+            a(href='http://localhost:7700/students/edit/'+ Student.numero) Edit Student
+        address
+            a(href='http://localhost:7700/students/delete/'+ Student.numero) Delete Student
+
+  

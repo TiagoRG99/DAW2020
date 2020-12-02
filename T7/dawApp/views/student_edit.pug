@@ -1,0 +1,69 @@
+extends layout
+
+block content
+    .w3-card-4
+      header.w3-container.w3-teal
+        h3.w3-left Editing Student #{Student.nome}
+    
+      body
+        form.w3-container(action='/students/update', method="POST")
+            ul
+                li Name:
+                    input.w3-input.w3-border.w3-light-grey(type="text", name="name", value=Student.nome)
+                li Number:
+                    input.w3-input.w3-border.w3-light-grey(type="text", name="number", value=Student.numero, readonly)
+                li Git: 
+                    input.w3-input.w3-border.w3-light-grey(type="text", name="git", value=Student.git)
+                li TPC: 
+                ol
+                    li
+                        if Student.tpc[0] == 0
+                            input.w3-check(type="checkbox", name="tpc1")
+                        else
+                            input.w3-check(type="checkbox", name="tpc1", checked="checked")
+                    li
+                        if Student.tpc[1] == 0
+                            input.w3-check(type="checkbox", name="tpc2")
+                        else
+                            input.w3-check(type="checkbox", name="tpc2", checked="checked")
+                    li
+                        if Student.tpc[2] == 0
+                            input.w3-check(type="checkbox", name="tpc3")
+                        else
+                            input.w3-check(type="checkbox", name="tpc3", checked="checked")
+                    li
+                        if Student.tpc[3] == 0
+                            input.w3-check(type="checkbox", name="tpc4")
+                        else
+                            input.w3-check(type="checkbox", name="tpc4", checked="checked")
+                    li
+                        if Student.tpc[4] == 0
+                            input.w3-check(type="checkbox", name="tpc5")
+                        else
+                            input.w3-check(type="checkbox", name="tpc5", checked="checked")
+                    li
+                        if Student.tpc[5] == 0
+                            input.w3-check(type="checkbox", name="tpc6")
+                        else
+                            input.w3-check(type="checkbox", name="tpc6", checked="checked")
+                    li
+                        if Student.tpc[6] == 0
+                            input.w3-check(type="checkbox", name="tpc7")
+                        else
+                            input.w3-check(type="checkbox", name="tpc7", checked="checked")
+                    li
+                        if Student.tpc[7] == 0
+                            input.w3-check(type="checkbox", name="tpc8")
+                        else
+                            input.w3-check(type="checkbox", name="tpc8", checked="checked")
+
+            input.w3-btn.w3-blue-grey.w3-margin(type='submit', value='Submit')
+            input.w3-btn.w3-blue-grey.w3-margin(type='reset', value='Reset')
+      footer.w3-container.w3-teal
+        address Gerado por dawApp :: 2020-Nov
+        address
+            a(href='http://localhost:7700/students') Return to Main Page
+        address
+            a(href='http://localhost:7700/students/'+ Student.numero) Cancel
+
+  

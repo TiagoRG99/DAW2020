@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>TPC7</key>
+        <title>TPC 7</title>
+        <bdate>25/11/2020</bdate>
+        <edate>02/12/2020</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="pg42851">
+            <name>Tiago Rico Gonçalves</name>
+            <email>pg42851@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Este TPC teve como objetivo a criação de um sistema de gestão da informação dos alunos de <i>DAW2020</i>, reccorrendo ao MongoDB para 
+            o manuseamento da base de dados e ao node.js e Express para a construção da aplicação. 
+            A aplicação criada permite as operações de consulta, inserção, edição e remoção.</p>
+    </abstract>
+    <deliverables>
+        <link url="dawApp/">Pasta da aplicação</link>
+    </deliverables>
+</pr>
