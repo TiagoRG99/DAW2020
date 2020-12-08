@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>TPC8</key>
+        <title>TPC 8</title>
+        <bdate>02/12/2020</bdate>
+        <edate>09/12/2020</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="pg42851">
+            <name>Tiago Rico Gonçalves</name>
+            <email>pg42851@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Este TPC teve como objetivo a implementação da funcionalidade de upload de múltiplos ficheiros, 
+        utilizando o sistema de upload de ficheiros da aula 8. Esta implementação permite na página do upload, o utilizador 
+        escolher adicionar mais ficheiros ao pressionar no botão para esse efeito.</p>
+    </abstract>
+    <deliverables>
+        <link url="server.js">Servidor</link>
+        <link url="html-template.js">Templates das páginas utilizadas pelo servidor</link>
+        <link url="/public/imagens.js">Script auxiliar das templates</link>
+        <link url="/public/extraFiles.js">Script auxiliar das templates</link>
+    </deliverables>
+</pr>
